@@ -1,6 +1,3 @@
-from tracemalloc import stop
-
-
 print("__________████████_____██████\n_________█░░░░░░░░██_██░░░░░░█\n________█░░░░░░░░░░░█░░░░░░░░░█\n_______█░░░░░░░███░░░█░░░░░░░░░█\n_______█░░░░███░░░███░█░░░████░█\n______█░░░██░░░░░░░░███░██░░░░██\n\
 _____█░░░░░░░░░░░░░░░░░█░░░░░░░░███\n____█░░░░░░░░░░░░░██████░░░░░████░░█\n____█░░░░░░░░░█████░░░████░░██░░██░░█\n___██░░░░░░░███░░░░░░░░░░█░░░░░░░░███\n__█░░░░░░░░░░░░░░█████████░░█████████\n\
 _█░░░░░░░░░░█████_████___████_█████___█\n_█░░░░░░░░░░█______█_███__█_____███_█___█\n█░░░░░░░░░░░░█___████_████____██_██████\n░░░░░░░░░░░░░█████████░░░████████░░░█\n░░░░░░░░░░░░░░░░█░░░░░█░░░░░░░░░░░░█\n\
@@ -28,8 +25,6 @@ if q1 == "ren":
             print("Je hebt niemand gevonden die vroeg")
     else:
         print("Onee na dat je vroeg wat er was heeft sven je een zes daagse uitleg gegeven over zijn zelf gemaakte commandblock plugin je hebt zelfmoord gepleegd")
-        stop
 else:
     print("rip bozo Erik heeft al je geld en heeft er 1000 euro webstore icoontjes van gekocht en toen je er wat van zij shankde hij je")
-    stop
 
