@@ -1,5 +1,1 @@
-total = float(input("Hoeveel kosten da\n"))
-personen = float(input("Hoeveel personen zijn er\n"))
-fooi = float(input("welke fooi wil je geven in %\n"))
-betaal = str("%.2f" %(total/personen*(fooi/100+1)))
-print(f"Je moet {betaal} euro betalen.")
+print("Je moet " + str("%.2f" %(float(input("Hoeveel kosten da\n"))/float(input("Hoeveel personen zijn er\n"))*(float(input("welke fooi wil je geven in %\n"))/100+1))) + " euro betalen.")
