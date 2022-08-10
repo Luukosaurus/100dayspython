@@ -16,10 +16,13 @@ if q1 == "ren":
     q2 = input("Je komt Sven tegen en hij ziet er uit alsof hij je wat te vertellen heeft. \nWat doe je, negeer je hem of zeg je wat is er Sven. Type 'negeer' of 'wat is er sven'\n")
     if q2 == "negeer":
         print("Poeh op het nippertje hij had bijna een 2 uur verhaal verteld over zijn nieuwe plugin die hij had gemaakt met enkel commandblocks")
-        q3 = input("Onee Ole komt op je af hij ziet er gevaarlijk uit en op basis van ervaring weet je dat het niet slim is om in contact met hem te komen.\nWat doe je, Je zegt hi of je rent. Type `hi` of `ren`\n")
+        q3 = input("Onee Ole komt op je af hij ziet er gevaarlijk uit en op basis van ervaring weet je dat het niet slim is om in contact met hem te komen.\nWat doe je, Je zegt hi, je rent of je steelt zijn geld. Type `hi` of `ren` of 'steel'\n")
         if q3 == "hi":
             print("Slim je zij hi tegen Ole doneerde je 30 euro ondanks dat hij zij dat hij ging stoppen met geld doneren")
             print("Je taak is helaas niet voltooid want je hebt nog steeds niemand gevonden die vroeg")
+        elif q3 == "steel":
+            print("Ojee dat was gevaarlijk Ole heeft je beschoten en nu bloed je dood")
+            print("Je hebt niemand gevonden die vroeg")
         else:
             print("Je liep door en je ziet achter je dat Ole 30 euro geeft aan Erik.\nJe blijft achter je kijken en ziet niet waar je loopt en je valt in een gad rip bozo")
             print("Je hebt niemand gevonden die vroeg")
