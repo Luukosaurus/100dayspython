@@ -1,0 +1,2 @@
+import snakescript
+snakescript.snake()
